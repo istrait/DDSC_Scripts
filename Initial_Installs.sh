@@ -1,16 +1,16 @@
 echo Getting Apache
+
+sudo apt-get update
 sudo apt-get install apache2 -y
+
 echo Setting HTML permissions
 sudo chown pi: /var/www/html
+
 echo Getting PHP
 sudo apt-get install php5 libapache2-mod-php5 -y
 
-
 echo Now we will install the scripts
 echo
-echo First we make sure the web directory has the correct permissions
-echo
-
 
 echo Connecting and grabbing the current device webpage files
 echo
