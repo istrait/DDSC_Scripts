@@ -37,7 +37,7 @@ echo Install Arduino IDE 1.8.3
 cd /home/pi
 wget https://www.arduino.cc/download_handler.php?f=/arduino-1.8.3-linuxarm.tar.xz
 tar -xf arduino-1.8.3-linuxarm.tar.xz
-/home/pi/arduino-1.8.3
+cd /home/pi/arduino-1.8.3
 sudo ./install.sh
 
 echo Installs done
